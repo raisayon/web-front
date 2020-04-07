@@ -1,0 +1,8 @@
+<form class="general-search-form is-searching" role="search" action="/search" method="get">
+<div class="input-group">
+<span class="general-search__close">Close</span>
+<label for="general-search-search-input" class="is-vishidden">Search the site</label>
+<input type="text" name="q" id="general-search-search-input" class="general-search-input" placeholder="Search" required="required" value="">
+<button class="btn btn-go">GO</button>
+</div>
+</form>
