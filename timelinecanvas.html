@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="1140px" height="900px" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+Hello</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(5,450,5,0,2*Math.PI);//First dot
+ctx.font = "10px Arial";
+ctx.fillText("2014",5,500);
+ctx.font = "10px Arial";
+ctx.fillText("Your browser does not support the HTML5 canvas tag.",5,500);
+ctx.arc(395,450,5,0,2*Math.PI);
+ctx.moveTo(0,450);
+ctx.lineTo(1140,450);
+ctx.stroke();
+</script>
+
+</body>
+</html>
